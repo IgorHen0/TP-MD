@@ -22,6 +22,6 @@ A documentação, que contém tanto detalhes sobre o código, quanto detalhes so
 
 O algoritmo do trabalho foi construído, compilado e testado no sistema operacional Windows e para funcionamento sem erros deve-se utilizar o mesmo sistema operacional.  
 
-Para compilação dos dois arquivos .c, deve-se utilizar o compilador gcc e o seguinte comando no terminal:
-gcc espquadrada.c -o espquadrada.exe
+Para compilação dos dois arquivos .c, deve-se utilizar o compilador gcc e o seguinte comando no terminal:  
+gcc espquadrada.c -o espquadrada.exe  
 gcc esptriangular.c -o esptriangular.exe
