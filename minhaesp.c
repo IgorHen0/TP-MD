@@ -9,7 +9,7 @@ int main() {
 
     double raiz = sqrt(coord);
 
-    int x, y;
+    double x, y;
     int quadradoPerfeito = round(raiz) * round(raiz);
 
     int direcao;
@@ -27,7 +27,7 @@ int main() {
     } else {
 
         x = -sqrt(quadradoPerfeito);
-        y = ceil(x / -2);
+        y = floor(x / 2);
 
         if (raiz - floor(sqrt(coord)) < 0.5) {
             direcao = 4;
@@ -49,7 +49,7 @@ int main() {
     
             case 2:
                 x -= diferenca;
-                y += diferenca;
+                y -= diferenca;
                 break;
     
             case 3:
@@ -68,7 +68,7 @@ int main() {
         
     }
 
-    printf("(%d, %d)", x, y);
+    printf("(%.0f, %.0f)", x, y);
     return 0;
 
 }
